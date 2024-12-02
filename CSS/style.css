@@ -19,11 +19,11 @@ body{
         justify-content: space-between;
         width: 1170px;
         height: 56px;
-        margin: 0px 366px;
+        margin: 0 366px;
     }
 
     .header__logo{
-        padding: 15px 0px 0px 15px;
+        padding: 15px 0 0 15px;
     }
 
     .header__logo>p::before{
@@ -99,8 +99,7 @@ body{
 
     .container__leftButton{
         display: block;
-        width: px;
-        height: px;
+
     }
 
     .container__right{
@@ -118,9 +117,13 @@ body{
 
 
 
-
-
-
+/*<!-- Временная затычка   -->*/
+.footer {
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+}
+/*<!-- Временная затычка   -->*/
 
 @media (min-width: 992px) and (max-width: 1199px){
     header{
