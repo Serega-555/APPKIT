@@ -14,8 +14,6 @@ footer{      /* сам футер */
 .text_container{
     text-align: center;
     color: #FFFFFF99;
-    /*vertical-align: middle;*/
-    /*display: inline-block;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,28 +43,38 @@ footer{      /* сам футер */
 }
 
 .about_us_text {
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 100px;*/
+    /*font-size: 19px;*/
+    /*width: 500px;*/
+    /*margin-left: 500px;*/
+    /*color: white;*/
+
+    color: white;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    font-size: 19px;
-    width: 500px;
-    margin-left: 500px;
-    color: white;
+
+
 }
 
 .button_get {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    background-color: #40babd;
-    height: 50px;
-    margin-left: 670px;
-    border-radius: 8px;
-    width: 175px;
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*margin: 20px;*/
+    /*background-color: #40babd;*/
+    /*height: 50px;*/
+    /*margin-left: 670px;*/
+    /*border-radius: 8px;*/
+    /*width: 175px;*/
+
+    color: #40babd;
+
 }
 
 .text_button_get {
@@ -75,4 +83,26 @@ footer{      /* сам футер */
 .url_button_get {
     text-decoration: none;
     color: white;
+}
+
+.pay_list {
+    height: 750px;
+
+}
+
+.pay_text {
+    font-size: 36px;
+    color: #494d55;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.pay_text_2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #A2A6AF;
+    margin-top: 12px;
 }
