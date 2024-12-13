@@ -52,3 +52,4 @@ header__scrollButton2.addEventListener("click", changeContent2);
 header__scrollButton3.addEventListener("click", changeContent3);
 
 document.addEventListener("DOMContentLoaded", changeContent1);
+
