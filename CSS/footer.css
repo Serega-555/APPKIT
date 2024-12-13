@@ -4,7 +4,7 @@ header{
     background-color: red;
 
 }
-
+/*-----------footer-----------*/
 footer{      /* сам футер */
     background-color: #26282C;
     height: 50px;
@@ -22,65 +22,44 @@ footer{      /* сам футер */
 .text_url{
     color: #40babd;
 }
+/*-------------about us information----------*/
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 250px;
     background: #494d55 url(../images/map.png) no-repeat center center;
     padding-top: 90px;
     padding-bottom: 90px;
+
 }
 
 .about_us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 36px;
+    font-family: "Open Sans", Arial, sans-serif;
     color: white;
-    margin-bottom: 20px;
 }
 
 .about_us_text {
-    /*display: flex;*/
-    /*text-align: center;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*height: 100px;*/
-    /*font-size: 19px;*/
-    /*width: 500px;*/
-    /*margin-left: 500px;*/
-    /*color: white;*/
-
+    height: 100px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 500px;
     color: white;
+    text-align: center;
+}
+
+.url_button_get {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-}
-
-.button_get {
-    /*display: flex;*/
-    /*text-align: center;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*margin: 20px;*/
-    /*background-color: #40babd;*/
-    /*height: 50px;*/
-    /*margin-left: 670px;*/
-    /*border-radius: 8px;*/
-    /*width: 175px;*/
-
-    color: #40babd;
-
-}
-
-.text_button_get {
-    color: white;
-}
-.url_button_get {
+    width: 161px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #3aa7aa;
     text-decoration: none;
     color: white;
 }
@@ -105,4 +84,241 @@ footer{      /* сам футер */
     justify-content: center;
     color: #A2A6AF;
     margin-top: 12px;
+}
+
+.pay_byu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+/*-------------- покупка 20$ -------------*/
+
+.pay_20 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px 150px 10px;
+    background-color: #75c181;
+    height: 380px;
+    width: 250px;
+    border-radius: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.pay20_1str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.pay20_2str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.pay20_3str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.pay20_4str {
+    display: flex;
+    justify-content: center;
+    color: #00000066;
+
+}
+
+.pay20_5str {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+
+}
+
+.pay_btn20 {
+    text-decoration: none;
+    color: white;
+}
+
+.url_pay20 {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------- покупка 80$ -------------*/
+
+.pay_80 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px 150px 10px;
+    background-color: #58bbee;
+    height: 380px;
+    width: 250px;
+    border-radius: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.pay80_1str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.pay80_2str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.pay80_3str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.pay80_4str {
+    display: flex;
+    justify-content: center;
+    color: #00000066;
+}
+
+.pay80_5str {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+
+}
+
+.pay_btn80 {
+    text-decoration: none;
+    color: white;
+}
+
+.url_pay80 {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------- покупка 1200$ -------------*/
+
+.pay_1200 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px 150px 10px;
+    background-color: #F8A13F;
+    height: 380px;
+    width: 250px;
+    border-radius: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.pay1200_1str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.pay1200_2str {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.pay1200_3str {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.pay1200_4str {
+    display: flex;
+    justify-content: center;
+    color: #00000066;
+}
+
+.pay1200_5str {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.url_pay1200 {
+    text-decoration: none;
+    color: white;
+}
+
+.pay_btn1200 {
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------- OUR TEAM-------------*/
+.our_team {
+    height: 750px;
+    background-color: rgba(73, 77, 85, 0.17);
+}
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 50px;
+    color: #494d55;
+}
+
+.team_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+}
+
+.team_text2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: black solid;
+    height: 100px;
+
 }
