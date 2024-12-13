@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
     <link href="CSS/reset.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
     <title>AppKIT</title>
@@ -16,9 +17,9 @@
             <p>APP<span>KIT</span></p>
         </div>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
-                <li><a href="#" class="navbar_link">About</a></li>
+                <li><a href="#About_US" class="navbar_link">About</a></li>
                 <li><a href="#" class="navbar_link">Testimonials</a></li>
                 <li><a href="#" class="navbar_link">Features</a></li>
                 <li><a href="#" class="navbar_link">Team</a></li>
@@ -45,7 +46,98 @@
     </ol>
 </header>
 
+<main class="main">
 
+    <div class="about__container">
+        <h2 class="about__container__title" id="About_US"> Why Use AppKit?</h2>
+        <p class="about__container__text">Appkit uses modern front-end technologies and is packed with useful components
+                                        and widgets to<br>speed up your app development</p>
+        <ol class="about__container__list">
+            <li class="about__container__listBootstrap about__list__item"></li>
+            <li class="about__container__listAngular about__list__item"></li>
+            <li class="about__container__listHTML about__list__item"></li>
+            <li class="about__container__listCSS about__list__item"></li>
+            <li class="about__container__listLess about__list__item"></li>
+            <li class="about__container__listJQuery"></li>
+        </ol>
+
+        <div class="about__container__wrapper">
+            <div class="about__container__wrapperItem">
+                <div class="wrapperItem__image"><img src="images/figure-1.png" alt=""></div>
+                <h3 class="wrapperItem__title">UX-Centered Design</h3>
+                <p class="wrapperItem__text">Bespoke UX/UI design to enhance your app's <wbr>user experience. Let AppKit
+                     take care of the <wbr>design so you can develop without design <wbr>resources.</p>
+            </div>
+
+            <div class="about__container__wrapperItem">
+                <div class="wrapperItem__image"><img src="images/figure-2.png" alt=""></div>
+                <h3 class="wrapperItem__title">Supercharge App Development</h3>
+                <p class="wrapperItem__text">AppKit provides developers with a ready-<wbr>made front-end solution so you
+                    can <wbr>concentrate on making your app’s back-end <wbr>robust and awesome. It empowers small
+                    <wbr>teams to create big things.</p>
+            </div>
+
+            <div class="about__container__wrapperItem">
+                <div class="wrapperItem__image"><img src="images/figure-3.png" alt=""></div>
+                <h3 class="wrapperItem__title">Mobile First</h3>
+                <p class="wrapperItem__text">Built on the popular Bootstrap framework, so <wbr>the design is “Mobile First”
+                     and fully <wbr>responsive. For a startup, building an HTML5 <wbr>webapp which also works across mobile <wbr>
+                    devices is the most cost-effective way to get <wbr>your product off the ground.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials__container">
+
+        <div class="testimonials__section">
+            <h2 class="testimonials__section__title">Many Happy Customers</h2>
+
+            <div class="testimonials__section__content">
+                <img src="images/profile-1.png" class="testimonials__profileImage" alt="">
+                <blockquote class="quote">
+                    <p class="testimonials__text">Testimonial goes here Donec felis odio, sagittis eu cursus ac,
+                        porttitor eu purus. In a bibendum dui. Nullam id est sed felis rutrum tincidunt eu nec nisi
+                        morbi euismod semper neque sed lobortis.</p>
+                    <span class="testimonials__name">@JohnK, </span>
+                    <span class="testimonials__meta">San Francisco</span>
+                </blockquote>
+            </div>
+
+            <div class="testimonials__section__content testimonials__section__contentRevers">
+                <img src="images/profile-2.png" class="testimonials__profileImage" alt="">
+                <blockquote class="quote quoteRevers">
+                    <p class="testimonials__text">Testimonial goes here fermentum sed pharetra in, aliquet sodales
+                        quam. Ut sed turpis quis orci viverra aliquet interdum ut ipsum.</p>
+                    <span class="testimonials__name">@LisaWhite, </span>
+                    <span class="testimonials__meta">London</span>
+                </blockquote>
+            </div>
+
+            <div class="testimonials__section__content">
+                <img src="images/profile-3.png" class="testimonials__profileImage" alt="">
+                <blockquote class="quote">
+                    <p class="testimonials__text">Testimonial goes here vestibulum non hendrerit lorem, luctus
+                        tincidunt erat. Sed pharetra aliquam posuere. Pellentesque sollicitudin.</p>
+                    <span class="testimonials__name">@MattH, </span>
+                    <span class="testimonials__meta">Berlin</span>
+                </blockquote>
+            </div>
+
+            <div class="testimonials__section__content testimonials__section__contentRevers">
+                <img src="images/profile-4.png" class="testimonials__profileImage" alt="">
+                <blockquote class="quote quoteRevers">
+                    <p class="testimonials__text">Testimonial goes here lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                        et magnis</p>
+                    <span class="testimonials__name">@RyanW, </span>
+                    <span class="testimonials__meta">Paris</span>
+                </blockquote>
+            </div>
+        </div>
+
+    </div>
+
+</main>
 
 <script src="js/scroll_header.js"></script>
 </body>
